@@ -1,6 +1,6 @@
 import os
 
-PREFIX = ".." # Work around the startup time for HDMI audio
+PREFIX = "" # Add some full stops to Work around the startup time for HDMI audio if required
 
 class Voice:
     def say(self, message):

@@ -57,7 +57,7 @@ class ChallengeComplete:
                 step.speech = "Challenge Complete! You took {} minutes and {} seconds".format(minutes, seconds)
             else:
                 step.text = "Challenge Complete!\n\nYou took:\n{}s".format(seconds)
-                step.speech = "Challenge Complete! You took {} seconds".format(minutes, seconds)
+                step.speech = "Challenge Complete! You took {} seconds".format(seconds)
         else:
             step.text = "Challenge Complete!"
         step.run(state)
