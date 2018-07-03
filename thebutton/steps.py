@@ -53,7 +53,7 @@ class ChallengeComplete:
                 step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}:{:02}".format(hours, minutes, seconds)
                 step.speech = "Challenge Complete! You took {} hours, {} minutes and {} seconds".format(hours, minutes, seconds)
             elif minutes:
-                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}:{:02}".format(minutes, seconds)
+                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}".format(minutes, seconds)
                 step.speech = "Challenge Complete! You took {} minutes and {} seconds".format(minutes, seconds)
             else:
                 step.text = "Challenge Complete!\n\nYou took:\n{}s".format(seconds)
