@@ -2,7 +2,7 @@
 
 sudo apt-get install -y festival unclutter
 
-sed -i .bak "s/^@xscreensaver/#@xscreensaver/" ~/.config/lxsession/LXDE-pi/autostart
+sed -i "s/^@xscreensaver/#@xscreensaver/" ~/.config/lxsession/LXDE-pi/autostart
 
 echo "
 @xset s off
