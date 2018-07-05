@@ -32,6 +32,11 @@ def start():
     yield GenericStep(start=True)
 
 
+@step_factory("stop")
+def start():
+    yield GenericStep(stop=True)
+
+
 @step_factory("button")
 def button():
     yield GenericStep(wait_for_press=True)
