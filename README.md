@@ -96,15 +96,15 @@ The script will set the button software to run at startup as well as configuring
 The real fun of playing The Button comes from doing the challenges. This repo contains some predefined challenges but you can easily define your own. If you create some fun challenges please submit them as a pull request so others can share in the fun.
 
 All the challenges are defined in the challenges folder. Each challenge is defined in its own file. The file extension must be `.json` and the contents must be valid json. The contents of the file are a list of steps, each step can be one of:
-    * Display a message on the screen - any string that does not begin with a `!` will be displayed on the screen, e.g. `"hello world"`
-    * Wait for a period of time - `"!wait:<time-in-seconds>"`, e.g. `"!wait:30"`
-    * Wait for someone to press the button - `"!button"`
-    * Set the lights red - `"!red"`
-    * Set the lights green - `"!green"`
-    * Start the challenge timer - `"!start"`
-    * Stop the challenge timer - `"!stop"`
-    * Show a standard "Challenge Complete" screen including how long the challenge took - `"!challenge complete"`
-    * Show a standard "Time's up" screen - `"!times up"`
+* Display a message on the screen - any string that does not begin with a `!` will be displayed on the screen, e.g. `"hello world"`
+* Wait for a period of time - `"!wait:<time-in-seconds>"`, e.g. `"!wait:30"`
+* Wait for someone to press the button - `"!button"`
+* Set the lights red - `"!red"`
+* Set the lights green - `"!green"`
+* Start the challenge timer - `"!start"`
+* Stop the challenge timer - `"!stop"`
+* Show a standard "Challenge Complete" screen including how long the challenge took - `"!challenge complete"`
+* Show a standard "Time's up" screen - `"!times up"`
 
 It is also possible to define more complex steps that combine any number of the above elements into a single step, see the challenge files in this repo for examples.
 
@@ -117,7 +117,10 @@ An example of a simple challenge file using four steps, is:
         "!Challenge Complete"
     ]
 
-Once the button has beeen pressed the challenge text "Bring me 4 different types of canned food" will be displayed, the timer will be started and then nothing will happen until the user presses the button. Once the button has been pressed the "Challenge Complete" screen will be shown and will tell the players how it took them to complete the challenge.
+The resulting challenge will work as follows:
+* Once the button has beeen pressed the challenge text "Bring me 4 different types of canned food" will be displayed.
+* The timer will be started and then nothing will happen until the user presses the button.
+* Once the button has been pressed the "Challenge Complete" screen will be shown and will tell the players how it took them to complete the challenge.
 
 ## Submissions
 
