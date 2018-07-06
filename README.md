@@ -51,11 +51,11 @@ I am a member of [Cambridge Makespace](http://makespace.org/) where I was able t
 ### How to
 Here is a step by step guide to building the smaller button:
 
-<div align="center"></div>
+[![Making The Mini Button](https://img.youtube.com/vi/gHQaEs__fvg/0.jpg)](https://www.youtube.com/watch?v=gHQaEs__fvg "Making The Mini Button")
 
 And this video shows the constructions details that differ for the full button:
 
-[![Making The Mini Button](https://img.youtube.com/vi/txHKabrpCIU/0.jpg)](https://www.youtube.com/watch?v=txHKabrpCIU "Making The Mini Button")
+[![Big button differences](https://img.youtube.com/vi/txHKabrpCIU/0.jpg)](https://www.youtube.com/watch?v=txHKabrpCIU "Big button differences")
 
 
 ### Designs
