@@ -10,19 +10,45 @@ My family and I really enjoyed "The Button" on BBC One this spring and we wanted
 
 ## Building The Button
 
-I have designed two different models of The Button. The first is a fully featured button with integrated screen and the second is a simpler, cheaper to build model that uses a TV to display the challenges. This video shows both buttons:
+I have designed two different models of The Button. The first is a fully featured button with an integrated screen and the second is a simpler, cheaper to build model that uses a TV to display the challenges. This video shows both buttons:
 
 [![My Model of BBC One's The Button](https://img.youtube.com/vi/vgZ8wvUb_S4/0.jpg)](https://www.youtube.com/watch?v=vgZ8wvUb_S4 "My Model of BBC One's The Button")
 
+### Equipment used
+
 If you want to make your own button you will need access to:
 * A Laser cutter
-* A 3D printer
+* A 3D printer (ideally one capable of printing ABS)
 * A Vacuum-forming machine
 * Basic soldering equipment
 * A belt or disk sander or a dremmel or similar
+* Glue gun
 
 I am a member of [Cambridge Makespace](http://makespace.org/) where I was able to use all of the above equipment to make my buttons.
 
+### Parts list
+* 2x 600x400x3mm laser plywood (1 for mini button)
+* ABS filament for your 3D printer (for the dome former)
+* PLA filament for your 3D printer (for the other parts - can also use ABS)
+* 1x Raspberry Pi
+* 1x A4 1mm Matt White Styrene sheet
+* 1x Raspberry Pi 7" screen (not for mini button)
+* 1x Raspberry Pi camera module (optional for big button and not required for mini button)
+* 4x M3x12mm screws
+* 4x M3 nuts (only for mini button)
+* A piece of foam approx 45mm thick and 75mm radius
+* Wires
+* Veroboard
+* 30x very bright red LEDs (10 for mini button)
+* 30x very bright green LEDs (10 for mini button)
+* 1x 7.5Ω resistor
+* 2x TIP121 darlington pair transistors
+* Wood glue
+* Glue gun glue
+* Clear glue or superglue
+* Double-sided tape (not for mini button)
+
+### How to
 Here is a step by step guide to building the smaller button:
 
 <div align="center"></div>
@@ -31,6 +57,8 @@ And this video shows the constructions details that differ for the full button:
 
 [![Making The Mini Button](https://img.youtube.com/vi/txHKabrpCIU/0.jpg)](https://www.youtube.com/watch?v=txHKabrpCIU "Making The Mini Button")
 
+
+### Designs
 The design files are available on thingiverse:
 * The Button
 * Mini Button
@@ -43,7 +71,7 @@ Here is the wiring diagram, in reality there were more LEDs than are shown:
 
 ![Wiring Diagram](docs/schematic.png)
 
-## Installation Instructions
+### Software Installation Instructions
 
 See this video for a walk through of the instructions below:
 
