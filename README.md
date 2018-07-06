@@ -60,8 +60,8 @@ And this video shows the constructions details that differ for the full button:
 
 ### Designs
 The design files are available on thingiverse:
-* The Button
-* Mini Button
+* [The Button](https://www.thingiverse.com/thing:2992021)
+* [Mini Button](https://www.thingiverse.com/thing:2992039)
 
 And this video talks you through the various components of the design:
 
