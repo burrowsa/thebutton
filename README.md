@@ -93,9 +93,9 @@ The script will set the button software to run at startup as well as configuring
 
 ## Writing Your Own Challenges
 
-The real fun of playing The Button comes from doing the challenges. This repo contains some predefined challenges but you can easily define your own. If you create some fun challenges please submit them as a pull request so others can share in the fun.
+The real fun of playing The Button comes from doing the challenges. This repo contains some predefined challenges but the software is scriptable so that you can easily define your own. If you create some fun challenges please submit them as a pull request so others can share in the fun.
 
-All the challenges are defined in the challenges folder. Each challenge is defined in its own file. The file extension must be `.json` and the contents must be valid json. The contents of the file are a list of steps, each step can be one of:
+All the challenges are defined in the [challenges folder](https://github.com/burrowsa/thebutton/tree/master/challenges). Each challenge is defined in its own file. The file extension must be `.json` and the contents must be valid json. The contents of the file are a list of steps, each step can be one of:
 * Display a message on the screen - any string that does not begin with a `!` will be displayed on the screen, e.g. `"hello world"`
 * Wait for a period of time - `"!wait:<time-in-seconds>"`, e.g. `"!wait:30"`
 * Wait for someone to press the button - `"!button"`
