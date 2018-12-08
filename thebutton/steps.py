@@ -55,16 +55,16 @@ class ChallengeComplete:
             minutes = time_taken.seconds % 3600 // 60
             seconds = time_taken.seconds % 60
             if hours:
-                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}:{:02}".format(hours, minutes, seconds)
+                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}:{:02}\n\nSend a photo of this screen to HQ then press the button.".format(hours, minutes, seconds)
                 step.speech = "Challenge Complete! You took {} hours, {} minutes and {} seconds".format(hours, minutes, seconds)
             elif minutes:
-                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}".format(minutes, seconds)
+                step.text = "Challenge Complete!\n\nYou took:\n{:02}:{:02}\n\nSend a photo of this screen to HQ then press the button.".format(minutes, seconds)
                 step.speech = "Challenge Complete! You took {} minutes and {} seconds".format(minutes, seconds)
             else:
-                step.text = "Challenge Complete!\n\nYou took:\n{}s".format(seconds)
+                step.text = "Challenge Complete!\n\nYou took:\n{}s\n\nSend a photo of this screen to HQ then press the button.".format(seconds)
                 step.speech = "Challenge Complete! You took {} seconds".format(seconds)
         else:
-            step.text = "Challenge Complete!"
+            step.text = "Challenge Complete!\n\nPress the button to continue."
         step.run(state)
 
 

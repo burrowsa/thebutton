@@ -24,7 +24,7 @@ def main(challenges_path):
     state = State() # Bag of state
     state.start_time = None
     state.challenges_path = challenges_path
-    state.randomise = True
+    state.randomise = False
     state.display = Display()
     state.voice = Voice()
     state.button = Button()

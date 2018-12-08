@@ -1,9 +1,0 @@
-[
-    "!green",
-    "The first player to drink a glass of water whilest sitting in front of THE BUTTON is the winner. You must not start until THE BUTTON goes red.",
-    "!wait:10",
-    "!red",
-    "!start",
-    "!button",
-    "!challenge complete"
-]

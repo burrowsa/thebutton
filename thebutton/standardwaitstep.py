@@ -2,7 +2,7 @@ from random import randint
 from thebutton.genericstep import GenericStep
 
 MIN_WAIT_SEC = 3*60
-MAX_WAIT_SEC = 7*60
+MAX_WAIT_SEC = 12*60
 
 class StandardWaitStep:
     @staticmethod
