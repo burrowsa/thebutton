@@ -7,7 +7,7 @@ from thebutton.clock import Clock, ClockAndButton
 
 
 def game_thread(state):
-    for challenge in load_all_challenges(state.challenges_path):
+    for challenge in load_all_challenges(state.challenges_path, state.randomise):
         challenge.run(state)
     state.display.show("All Challenges Completed")
 
@@ -24,6 +24,7 @@ def main(challenges_path):
     state = State() # Bag of state
     state.start_time = None
     state.challenges_path = challenges_path
+    state.randomise = True
     state.display = Display()
     state.voice = Voice()
     state.button = Button()
